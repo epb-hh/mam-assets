@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2165.5" height="328" viewBox="0 0 2165.5 328">
+  <defs>
+    <filter id="filter-6" width="200%" height="200%" x="-50%" y="-50%" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feOffset dx="-6" dy="-6" in="SourceAlpha" result="shadow-1-feOffset-shadow"/>
+      <feGaussianBlur in="shadow-1-feOffset-shadow" result="shadow-1-feGaussianBlur-shadow" stdDeviation="6.024"/>
+      <feColorMatrix in="shadow-1-feGaussianBlur-shadow" result="shadow-1-feColorMatrix-shadow" type="matrix" values="0 0 0 0 0.5098039215686274  0 0 0 0 0.5098039215686274  0 0 0 0 0.5098039215686274  0 0 0 1 0"/>
+    </filter>
+    <rect id="rect-7" width="285" height="300" x="2" y="25" rx="20" ry="20"/>
+    <rect id="rect-8" width="285" height="300" x="2" y="25"/>
+    <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="2165.5" height="328" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-8"/>
+    </mask>
+    <rect id="rect-10" width="160.312" height="187.5" x="68.5" y="73"/>
+    <path id="path-11" fill-rule="evenodd" d="M68.5 138.625L148.65625 73l80.15625 65.625V241.75c0 10.35533906-7.9749279 18.75-17.8125 18.75H86.3125c-9.8375721 0-17.8125-8.39466094-17.8125-18.75V138.625z"/>
+    <path id="path-12" fill-rule="evenodd" d="M121.9375 260.5v-93.75h53.4375v93.75"/>
+  </defs>
+  <g>
+    <path fill="rgb(172,33,124)" fill-opacity=".75" fill-rule="evenodd" d="M150 28h70c44.15320196 0 80 35.84679804 80 80v70H150V28z"/>
+    <path fill="rgb(0,128,128)" fill-opacity=".6" fill-rule="evenodd" d="M0 178h150v150H80c-44.15320196 0-80-35.84679804-80-80v-70z"/>
+    <path fill="rgb(245,123,32)" fill-opacity=".75" fill-rule="evenodd" d="M80 28h70v150H0v-70c0-44.15320196 35.84679804-80 80-80z"/>
+    <path fill="rgb(51,153,255)" fill-opacity=".75" fill-rule="evenodd" d="M150 178h150v70c0 44.15320196-35.84679804 80-80 80h-70V178z"/>
+    <g>
+      <text fill="inherit" stroke="black" stroke-opacity="0" stroke-width="0" filter="url(#filter-6)" font-size="0" style="white-space:pre">
+        <tspan x="375.5" y="267" font-family="Century Gothic" font-size="250" font-weight="700" style="white-space:pre;text-transform:none" letter-spacing="15">Honest Home</tspan>
+      </text>
+      <text font-size="0" style="white-space:pre">
+        <tspan x="375.5" y="267" fill="rgb(0,0,0)" font-family="Century Gothic" font-size="250" font-weight="700" style="white-space:pre;text-transform:none" letter-spacing="15">Honest Home</tspan>
+      </text>
+    </g>
+    <g>
+      <use fill="none" xlink:href="#rect-8"/>
+      <g mask="url(#mask-9)">
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#path-11"/>
+          <use fill-opacity="0" stroke="rgb(79,79,79)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".8" stroke-width="8" xlink:href="#path-11"/>
+        </g>
+        <g>
+          <use fill="rgb(176,44,130)" fill-opacity=".25" xlink:href="#path-12"/>
+          <use fill-opacity="0" stroke="rgb(114,114,114)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" xlink:href="#path-12"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

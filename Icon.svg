@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="303" viewBox="0 0 300 303">
+  <defs>
+    <rect id="rect-5" width="285" height="300" x="4" y="0" rx="20" ry="20"/>
+    <rect id="rect-6" width="285" height="300" x="4" y="0"/>
+    <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="300" height="303" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#rect-6"/>
+    </mask>
+    <rect id="rect-8" width="160.312" height="187.5" x="70.5" y="48"/>
+    <path id="path-9" fill-rule="evenodd" d="M70.5 113.625L150.65625 48l80.15625 65.625V216.75c0 10.35533906-7.9749279 18.75-17.8125 18.75H88.3125c-9.8375721 0-17.8125-8.39466094-17.8125-18.75V113.625z"/>
+    <path id="path-10" fill-rule="evenodd" d="M123.9375 235.5v-93.75h53.4375v93.75"/>
+  </defs>
+  <g>
+    <path fill="rgb(172,33,124)" fill-opacity=".75" fill-rule="evenodd" d="M150 3h70c44.15320196 0 80 35.84679804 80 80v70H150V3z"/>
+    <path fill="rgb(0,128,128)" fill-opacity=".6" fill-rule="evenodd" d="M0 153h150v150H80c-44.15320196 0-80-35.84679804-80-80v-70z"/>
+    <path fill="rgb(245,123,32)" fill-opacity=".75" fill-rule="evenodd" d="M80 3h70v150H0V83C0 38.84679804 35.84679804 3 80 3z"/>
+    <path fill="rgb(51,153,255)" fill-opacity=".75" fill-rule="evenodd" d="M150 153h150v70c0 44.15320196-35.84679804 80-80 80h-70V153z"/>
+    <g>
+      <use fill="none" xlink:href="#rect-6"/>
+      <g mask="url(#mask-7)">
+        <g>
+          <use fill="rgb(255,255,255)" xlink:href="#path-9"/>
+          <use fill-opacity="0" stroke="rgb(79,79,79)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".8" stroke-width="8" xlink:href="#path-9"/>
+        </g>
+        <g>
+          <use fill="rgb(176,44,130)" fill-opacity=".25" xlink:href="#path-10"/>
+          <use fill-opacity="0" stroke="rgb(114,114,114)" stroke-dasharray="0 0 0 0" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" xlink:href="#path-10"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
